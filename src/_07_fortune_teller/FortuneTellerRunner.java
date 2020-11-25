@@ -14,6 +14,6 @@ public class FortuneTellerRunner {
     
     static void begin() {
       	 // Welcome the user. Give them a hint for the secret location.
-
+    	System.out.println("The secret location is the most obvious place on the picture");
     }
 }
