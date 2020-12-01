@@ -145,6 +145,7 @@ public class Jeopardy implements ActionListener {
 		// Clear the text on the button that was pressed (set the button text to
 		// nothing)
 
+
 	}
 
 	private void askQuestion(String question, String correctAnswer, int prizeMoney) {
@@ -162,7 +163,7 @@ public class Jeopardy implements ActionListener {
 			JOptionPane.showMessageDialog(null, "You're correct!");
 			score += prizeMoney;
 		} else {
-			JOptionPane.showMessageDialog(null, "Incorrect!");
+			JOptionPane.showMessageDialog(null, "Incorrect! The correct answer is " + correctAnswer);
 			score -= prizeMoney;
 		}
 		// Increase the score by the prizeMoney
